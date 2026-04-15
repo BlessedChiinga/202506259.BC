@@ -32,16 +32,27 @@ START
 INPUT n
 
 IF n < 0 THEN
+
     PRINT "Factorial not defined"
+
 ELSE IF n = 0 OR n = 1 THEN
+
     PRINT 1
+
 ELSE
+
     SET result ← 1
+
     FOR i ← 1 TO n DO
+
         result ← result × i
+
     END FOR
+
     PRINT result
+
 END IF
+
 
 END
 
